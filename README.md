@@ -15,7 +15,7 @@ The home page diplays a list of the users logged hours
 
 ## Navigation
 
-## Create new emergency contact form and make updates as needed
+### Create new emergency contact form and make updates as needed
 <img width="950" alt="agft emergency contact form" src="https://user-images.githubusercontent.com/42612374/79876965-ac3ba580-83b9-11ea-98e0-5ad1327ca5b8.png">
 
 ### Create a new hours log
@@ -24,5 +24,5 @@ The home page diplays a list of the users logged hours
 ### View their total hours completed
 <img width="953" alt="agft total hours" src="https://user-images.githubusercontent.com/42612374/79872049-46e4b600-83b3-11ea-9158-daa60598a86f.png">
 
-### Total hours can be printed on a letterhead if needed for scholarship application or to satisy club obligation.
+### Total hours can be printed on a letterhead if needed for scholarship application or to satisfy club obligation.
 <img width="931" alt="agft letterhead" src="https://user-images.githubusercontent.com/42612374/79872137-5e23a380-83b3-11ea-8b89-59ae1cb9a2a5.png">
