@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}New Hours Log{% endblock %}
+
+{% block content %}
+<div class="container">
+    <form method='POST' class='form-group mt-3'>{% csrf_token %}
+        {{form|crispy}}
+        <button type='submit' class='btn btn-primary'>Log Hours</button>
+    </form>
+</div>
+{% endblock %}

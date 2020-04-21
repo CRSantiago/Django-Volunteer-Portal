@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Logged Hours{% endblock %}
+
+{% block content %}
+<div class="container">
+{% for log in user.logs.all %}
+<div class="card mt-2">
+    <div class="card-body">
+        <div class="card-header bg-primary text-white mb-2">
+            Hours Log
+        </div>
+        <p class='card-text'><span class='font-weight-bold'>Date - </span>{{log.date}}</p>
+        <p class='card-text'><span class='font-weight-bold'>Hours Completed - </span>{{log.hours_completed}}</p>
+    </div>
+</div>
+{% endfor %}
+</div>
+{% endblock %}

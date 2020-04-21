@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+
+{% block title %}Login Here{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="display-3">AGFT Volunteer Login</h1>
+    <form method='POST' class='form-group'>{% csrf_token %}
+        {{form|crispy}}
+        <p>Don't have an account? Create one <a href="/register" style='padding:0; margin:0;'>here</a></p>
+        <button type=submit class='btn btn-primary'>Login</button>
+    </form>
+</div>
+{% endblock %}

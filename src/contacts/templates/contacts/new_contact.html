@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}Create New Contact Form{% endblock %}
+
+{% block content %}
+<div class="container">
+    <form method='POST' class='form-group'>{% csrf_token %}
+        {{form|crispy}}
+        <button type='submit' class='btn btn-primary'>Complete Form</button>
+    </form>
+</div>
+{% endblock %}

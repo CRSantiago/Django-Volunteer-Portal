@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="container">
+    <div class="card text-center mt-3">
+        <div class="card-header bg-info font-weight-bold">
+          Total Hours
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{hours_total}}</h5>
+          <p class="card-text">Need your hours for a scholarship or club?</p>
+          <a href="{% url 'logs:pdf' %}" class="btn btn-primary">Print Letterhead</a>
+        </div>
+      </div>
+</div>
+{% endblock %}

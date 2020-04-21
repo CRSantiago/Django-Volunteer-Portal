@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="card-group mt-3">
+        <div class='card'>
+            <div class="card-body">
+                <h1 class='card-title'>Student Information</h1>
+                <p>First Name - {{object.first_name}}</p>
+                <p>Last Name - {{object.last_name}}</p>
+                <p>Email - {{object.email}}</p>
+                <p>DOB (Date of Birth) - {{object.D_O_B}}</p>
+                <p>School - {{object.get_school_display}}</p>
+            </div>
+        </div>
+        <div class='card'>
+            <div class="card-body">
+            <h1 class='card-title'>Contact Information</h1>
+                <p>Parent First Name - {{object.parent_first_name}}</p>
+                <p>Parent Last Name - {{object.parent_last_name}}</p>
+                <p>Parent Cell Phone - {{object.parent_cell_phone}}</p>
+                <p>Street - {{object.street}}</p>
+                <p>City - {{object.city}}</p>
+                <p>State - {{object.state}}</p>
+                <p>Zipcode - {{object.zipcode}}</p>
+            </div>
+        </div>
+    </div>
+    <div class='text-center mt-2'>
+        <a href="{% url 'contacts:contact-update' object.id %}" class='badge badge-primary stretched-link'>Update</a>
+    </div>
+</div>
+{% endblock %}
