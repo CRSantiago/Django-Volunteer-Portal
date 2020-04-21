@@ -15,6 +15,9 @@ The home page diplays a list of the users logged hours
 
 ## Navigation
 
+## Create new emergency contact form and make updates as needed
+<img width="950" alt="agft emergency contact form" src="https://user-images.githubusercontent.com/42612374/79876965-ac3ba580-83b9-11ea-98e0-5ad1327ca5b8.png">
+
 ### Create a new hours log
 <img width="959" alt="agft log hours" src="https://user-images.githubusercontent.com/42612374/79871919-1866db00-83b3-11ea-96a5-d7bc51a44956.png">
 
