@@ -1,2 +1,2 @@
 web:gunicorn volunteersys.wsgi
-release:python manage.py migrate
+release:python src\manage.py migrate
