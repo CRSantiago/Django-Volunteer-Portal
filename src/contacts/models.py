@@ -44,7 +44,7 @@ class Contact(models.Model):
     street = models.CharField(max_length=30)
     city = models.CharField(max_length=25)
     state = models.CharField(max_length=7,default='Florida')
-    zipcode = models.PositiveIntegerField()
+    zipcode = models.CharField(max_length=5)
     is_complete = models.BooleanField(default=False)
 
     def get_absolute_url(self):
