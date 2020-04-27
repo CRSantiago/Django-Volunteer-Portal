@@ -13,6 +13,7 @@ xhtml2pdf = "*"
 django-environ = "*"
 gunicorn = "*"
 django-heroku = "*"
+django-session-timeout = "*"
 
 [requires]
 python_version = "3.6"
