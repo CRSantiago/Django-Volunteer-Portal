@@ -1,2 +1,2 @@
-web: gunicorn src.volunteersys.wsgi:application --log-file - 
-release: python src/manage.py migrate
+web: gunicorn volunteersys.wsgi
+release: python manage.py migrate
