@@ -11,7 +11,7 @@ html5lib==1.0.1
 phonenumbers==8.12.2
 Pillow==7.1.1
 psycopg2==2.8.5
-PyPDF2==1.27.5
+PyPDF2==1.27.9
 pytz==2019.3
 reportlab==3.5.55
 six==1.14.0
